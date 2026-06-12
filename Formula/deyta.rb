@@ -5,8 +5,8 @@ class Deyta < Formula
   homepage "https://github.com/DeytaHQ/deyta-cli"
   # url + sha256 point at the PyPI source distribution and are updated on each
   # release by scripts/update-formula.py (see .github/workflows/bump-formula.yml).
-  url "https://files.pythonhosted.org/packages/source/d/deyta-cli/deyta_cli-0.0.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://files.pythonhosted.org/packages/58/86/7927206aaa7862a9579e9dbd3ecf4d45741278ea8f6219e1539e40c31b44/deyta_cli-0.1.0.tar.gz"
+  sha256 "8ae61ed5e58b28885c684d26e2755c1a888de16ece3c98658449c9ddb7e05068"
   license "MIT"
 
   depends_on "python@3.13"
