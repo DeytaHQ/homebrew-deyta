@@ -5,17 +5,17 @@ Homebrew formulae for [Deyta](https://github.com/DeytaHQ) tools.
 ## Install
 
 ```bash
-brew install DeytaHQ/deyta/deyta
-```
-
-Or tap first, then install:
-
-```bash
-brew tap DeytaHQ/deyta
+brew tap deytahq/deyta
+brew trust deytahq/deyta    # required: current Homebrew won't load third-party taps without it
 brew install deyta
 ```
 
 Upgrade with `brew upgrade deyta`.
+
+> **Why `brew trust`?** Current Homebrew requires every non-official tap to be
+> trusted before it will load a formula from it (`HOMEBREW_REQUIRE_TAP_TRUST` is
+> the default). This applies to all third-party taps, not just this one. It is a
+> one-time, per-tap step.
 
 ## What this installs
 
